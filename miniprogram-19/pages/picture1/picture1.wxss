@@ -1,0 +1,10 @@
+/* pages/picture1/picture1.wxss 
+image{
+  position:absolute;
+  left:0;
+  bottom: 0;
+  display:block;
+  height: 100%;
+width: 100%;
+z-index: -999;
+}*/

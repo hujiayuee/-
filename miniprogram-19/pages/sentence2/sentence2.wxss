@@ -1,0 +1,15 @@
+/* pages/sentence2/sentence2.wxss */
+
+.login-box{
+  height: 100%;
+}
+image{
+  position:absolute;
+  left:0;
+  bottom: 0;
+  display:block;
+  height: 100%;
+width: 100%;
+z-index: -999;
+}
+

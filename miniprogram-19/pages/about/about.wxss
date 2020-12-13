@@ -1,0 +1,57 @@
+/* pages/about/about.wxss */
+
+swiper {
+  width: 100%;
+  height: 500rpx;
+  background-color: rgb(238, 203, 203);
+}
+
+.container {
+  display: contents;
+  flex-direction: column;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+.item-container image {
+  margin-top: 40px;
+  width: 200rpx;
+  height: 200rpx;
+}
+.item-container wenan {
+  margin-left: 0px;
+  font-size: 10px;
+  color: rgb(170, 194, 218);
+}
+.item-container .name {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.item-container .brief {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.introduction {
+  margin: 20px;
+  color: rgb(157, 94, 216);
+  font-size: 18px;
+}
+.login-box{
+  height: 100%;
+}
+image{
+  position:absolute;
+  left:0;
+  bottom: 0;
+  display:block;
+  height: 100%;
+width: 100%;
+z-index: -999;
+}

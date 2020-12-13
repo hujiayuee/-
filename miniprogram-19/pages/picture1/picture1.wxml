@@ -1,0 +1,7 @@
+<!--pages/picture1/picture1.wxml-->
+
+<view>
+ <image src="https://uploadfile.huiyi8.com/up/96/e9/b0/96e9b0c854e08d31a3e8e901975b00dc.jpg"></image>
+ <image src="https://tse4-mm.cn.bing.net/th/id/OIP.fn-tEyfyTYFn0e24JysqeAAAAA?pid=Api&rs=1"></image>
+ <image src="https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/0bd162d9f2d3572c204d5f728a13632763d0c3f5.jpg"></image>
+</view>

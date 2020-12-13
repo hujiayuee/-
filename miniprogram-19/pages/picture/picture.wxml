@@ -1,0 +1,14 @@
+<!--pages/picture/picture.wxml-->
+<button class='btn1' bindtap="goToPicture1">
+<text>回忆复古杀</text>
+</button>
+
+<button class='btn2' bindtap="goToPicture2">
+<text>莫奈花园</text>
+</button>
+
+
+
+<view class="login-box">
+ <image src="../image/background.jpeg"></image>
+</view>

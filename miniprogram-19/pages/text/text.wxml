@@ -1,0 +1,16 @@
+<!--pages/text/text.wxml-->
+<button class='btn1' bindtap="goToSentence1">
+
+ <text>励志名句</text>
+</button>
+<button class='btn2' bindtap="goToSentence2">
+
+ <text>古典诗词</text>
+</button>
+<button class='btn3' bindtap="goToSentence3">
+
+ <text>欧美文艺</text>
+</button>
+<view class="login-box">
+  <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2968032921,865257341&fm=26&gp=0.jpg"></image>
+</view>

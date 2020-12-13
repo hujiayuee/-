@@ -1,0 +1,12 @@
+<!--pages/sentence3/sentence3.wxml-->
+<button class="tap3" bindtap="test">点击获取,再次点击更新</button>
+    <view wx:for="{{sentence3Result}}" wx:for-index='id' wx:for-item='item'>
+      <view>·{{sentence3Result[id].content}}</view>
+      <view>{{sentence3Result[id].note}}-</view>
+      <view>------{{sentence3Result[id].source}}</view>
+    </view>
+    <view class="login-box">
+  <image src="../image/background.jpeg"></image>
+</view>
+  
+

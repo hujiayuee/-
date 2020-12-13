@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/text/text",
+    "pages/picture/picture",
+    "pages/about/about",
+    "pages/sentence1/sentence1",
+    "pages/sentence2/sentence2",
+    "pages/sentence3/sentence3",
+    "pages/picture1/picture1",
+    "pages/picture2/picture2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "文案大师",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/text/text",
+        "text": "句子",
+        "iconPath": "pages/image/ju1.jpg",
+        "selectedIconPath": "pages/image/句2.png"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "text": "美图",
+        "iconPath": "/pages/image/图1.png",
+        "selectedIconPath": "/pages/image/图2.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "/pages/image/关于1.png",
+        "selectedIconPath": "/pages/image/关于2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap79.json"
+}

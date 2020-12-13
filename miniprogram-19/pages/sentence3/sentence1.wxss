@@ -1,0 +1,14 @@
+/* pages/sentence1/sen1.wxss */
+.tap3 {
+
+  width:80%;
+  margin-top:130rpx;
+  background-color:rgb(67, 120, 190);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+}

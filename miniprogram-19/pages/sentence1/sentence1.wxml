@@ -1,0 +1,13 @@
+<!--index.wxml-->
+
+<button  type="tap1" bindtap="test">点此获取</button>
+    <view wx:for="{{sentence1Result}}" wx:for-index='id' wx:for-item='item'>
+      <view>·{{sentence1Result[id].content}}</view>
+      <view>------{{sentence1Result[id].mrname}}</view>
+    </view>
+      <view class="login-box">
+  <image src="../image/background.jpeg"></image>
+</view>
+
+
+

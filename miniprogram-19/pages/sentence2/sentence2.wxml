@@ -1,0 +1,12 @@
+<!--pages/sentence2/sentence2.wxml-->
+<button type="tap2" bindtap="test">点击获取</button>
+    <view wx:for="{{sentence2Result}}" wx:for-index='id' wx:for-item='item'>
+      <view>《{{sentence2Result[id].title}}》</view>    
+      <view> ----{{sentence2Result[id].author}} </view>  
+      <view> {{sentence2Result[id].content}}</view>
+    </view>
+    <view class="login-box">
+  <image src="../image/background.jpeg"></image>
+</view>
+ 
+

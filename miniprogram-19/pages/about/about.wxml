@@ -1,0 +1,28 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <swiper indicator-dots='true' autoplay="true" interval="5000">
+   
+    <swiper-item>
+      <view class="item-container">
+      
+          <image wx:if="{{arr.length>0}}" src="../image/hu.png"></image>
+      
+        <text class="wenan">文案大师</text>
+        <text class="name">胡嘉悦</text>
+        <text class="brief">什么都不太会的小白鼠啊啊啊，深受导论课压榨。。。</text>
+      </view>
+    </swiper-item>
+
+    <swiper-item>
+      <view class="item-container">
+       <image wx:if="{{arr.length>0}}" src="../image/li.png"></image>
+        <text class="wenan">文案大师</text>
+        <text class="name">李雨桐</text>
+        <text class="brief">好好鬼混，别谈恋爱</text>
+      </view>
+    </swiper-item>
+  </swiper>
+
+  <text class="introduction">这是一款两只小白着急着急赶制的小程序，大家多多包涵。。。</text>
+ </view>
+

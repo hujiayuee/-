@@ -1,0 +1,44 @@
+/* pages/picture/picture.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+.login-box{
+  height: 100%;
+}
+image{
+  position:absolute;
+  left:0;
+  bottom: 0;
+  display:block;
+  height: 100%;
+width: 100%;
+z-index: -999;
+}
+.btn1 {
+  
+  width:80%;
+  margin-top:130rpx;
+  background-color:rgb(245, 179, 179);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.btn2 {
+  
+  width:80%;
+  margin-top:130rpx;
+  background-color:rgb(230, 193, 124);
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
